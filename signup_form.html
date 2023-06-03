@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+    <link rel="stylesheet" href="/css/form_stylesheet.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Learn to code by watching others</h1>
+            <p class="text">See how experienced developers solve problems in real time. watching scripted tutorials is great, but understanding how developer thinks is inevictable.</p>
+        </div>
+        <div class="container2">
+            <div class="form-head">
+                <h5>Try it for 7 days <span>then $20/mo. therafter</span></h5>
+            </div>
+            <form>
+                <div class="inputBox">
+                    <input type="text" name="fname" id="fname" placeholder="First Name">
+                    <div class="errorInfo1">
+                        <p class="warning">First name cannot be empty</p>
+                        <div class="error"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg></div>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name">
+                    <div class="errorInfo2">
+                        <p class="warning">Last name cannot be empty</p>
+                        <div class="error"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg></div>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <div class="errorInfo3">
+                        <p class="warning">Looks like this is not an email</p>
+                        <div class="error"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg></div>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <div class="errorInfo4">
+                        <p class="warning">Password cannot be empty</p>
+                        <div class="error"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg></div>
+                    </div>
+                </div>
+                
+                <!-- <button id="sub">Claim your free trial</button> -->
+                <input id="sub" type="submit" value="Claim your free trial">
+                <p class="terms">By clicking the you are agreeing to our <span>Terms & condition</span></p>
+            </form>
+        </div>
+    </main>
+    
+    
+
+    <script src="/js/intro_form_script.js"></script>
+</body>
+</html>

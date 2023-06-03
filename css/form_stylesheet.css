@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    height: 100vh;
+    padding: 5% 15%;
+    background-image: url(/css/images/bg-intro-desktop.png);
+    background-color: hsla(0, 100%, 74%, 0.938);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+}
+
+.container{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+h1{
+    margin-bottom: 5%;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.text{
+    font-size: 0.9rem;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.form-head{
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    margin-bottom: 5%;
+    box-shadow: 0px 5px 1px hsla(249, 10%, 26%, 0.356);
+    padding: 3% 3%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h5 span{
+    font-weight: 100;
+}
+
+form{
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    padding: 7%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 1px hsla(249, 10%, 26%, 0.356);
+}
+
+.inputBox{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 1px solid hsl(246, 25%, 77%);
+    padding: 3% 5%;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid hsl(248, 32%, 49%);
+}
+
+input[type='submit']{
+    background-color: hsl(154, 59%, 51%);
+    color: #fff;
+    box-shadow: 0px 2px 1px hsla(249, 10%, 26%, 0.356);
+    border: none;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type='submit']:active{
+    background-color: hsl(154, 80%, 58%);
+}
+
+.warning{
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    font-size: 0.6rem;
+}
+
+.error{
+    width: fit-content;
+    float: right;
+    padding-right: 3%;
+    position: relative;
+    bottom: 48px;
+}
+
+.errorInfo1, .errorInfo2, .errorInfo3, .errorInfo4{
+    display: none;
+}
+
+.terms{
+    width: 100%;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    font-size: 0.7rem;
+}
+
+.terms span{
+    color: hsl(0, 100%, 74%);
+}
